@@ -1,0 +1,27 @@
+POST https://api.mercadopago.com/checkout/preferences
+Content-Type: application/json
+Authorization: Bearer TEST-5638854460215838-120914-5c01eb7afee805e787b19e399b0be67e-327400008
+
+{
+    payer_email: "test_user_46945293@testuser.com",
+    items: [
+        {
+            title: "Dummy Title",
+            description: "Dummy description",
+            picture_url: "http://www.myapp.com/myimage.jpg",
+            category_id: "category123",
+            quantity: 1,
+            unit_price: 10
+        }
+    ],
+    external_reference: "MP0001",
+    back_urls: {
+        failure: "/failure",
+        pending: "/pending",
+        success: "/success"
+    }
+}
+
+###
+GET https://api.mercadopago.com/checkout/preferences/search?sort=date_created&criteria=desc&external_reference=MP0001
+Authorization: Bearer TEST-5638854460215838-120914-5c01eb7afee805e787b19e399b0be67e-327400008

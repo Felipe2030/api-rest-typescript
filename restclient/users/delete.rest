@@ -1,0 +1,2 @@
+DELETE http://localhost:3000/users?id=4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjcwNjA3MzQ4LCJleHAiOjE2NzA2OTM3NDh9.XHrR_VQ1pZ2XdzCrM3fQHwtpA4q3KlBcJyysG_4fgSY

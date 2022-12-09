@@ -1,0 +1,10 @@
+GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjcwNjA3MzQ4LCJleHAiOjE2NzA2OTM3NDh9.XHrR_VQ1pZ2XdzCrM3fQHwtpA4q3KlBcJyysG_4fgSY
+
+###
+GET http://localhost:3000/users?id=2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjcwNjA3MzQ4LCJleHAiOjE2NzA2OTM3NDh9.XHrR_VQ1pZ2XdzCrM3fQHwtpA4q3KlBcJyysG_4fgSY
+
+###
+GET http://localhost:3000/users?email=win2016_br@outlook.com
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjcwNjA3MzQ4LCJleHAiOjE2NzA2OTM3NDh9.XHrR_VQ1pZ2XdzCrM3fQHwtpA4q3KlBcJyysG_4fgSY
